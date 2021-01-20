@@ -1,13 +1,11 @@
 let furniture = ['Table','Chairs','Couch']
 
 function Letter(arr1){
-    let index =0 ;
-    while(index < arr1.length){
-        console.log(`************${arr1[index]}************`)
-        for (const char of arr1[index]) {
-            console.log(char)
+    for(const str_array of arr1){
+        console.log(`************${str_array}************`)
+        for (const char of str_array) {
+            console.log(char )
         }
-        index++;
         console.log("");
     }
 }
